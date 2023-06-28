@@ -7,3 +7,6 @@
 6) Start the training by running the cells in Google Colab until the "training" section and the training process will start.
 7) You may modify the "freeze" parameter in the training cell to specify number of layers for trainig. [85 = train the last 20 layers, 90 = train the last 15 layers]
 8) After the training is completed, you may run the remaining cells to convert the model to onnx model. 
+
+Error:
+If there is error during the training, go the dataset file("train" and "valid") in google drive and delete the file named "labels.cache" in both of the "train" and "valid" file.
